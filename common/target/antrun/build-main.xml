@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec executable="bash" failonerror="true">
+    <arg value="/Users/sungsoo/github/apache-hive/common/src/scripts/saveVersion.sh"/>
+    <arg value="0.13.1"/>
+    <arg value="0.13.1"/>
+    <arg value="/Users/sungsoo/github/apache-hive/common/src"/>
+  </exec>
+</target>
+</project>

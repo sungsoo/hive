@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <mkdir dir="/Users/sungsoo/github/apache-hive/itests/hive-unit/target/tmp/scripts/metastore"/>
+  <copy todir="/Users/sungsoo/github/apache-hive/itests/hive-unit/target/tmp/scripts/metastore">
+    <fileset dir="/Users/sungsoo/github/apache-hive/itests/hive-unit/../../metastore/scripts/"/>
+  </copy>
+</target>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>hive-exec</name>
+  <comment>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>hive-ant</project>
+    <project>hive-common</project>
+    <project>hive-shims</project>
+    <project>hive-shims-common</project>
+    <project>hive-shims-0.20</project>
+    <project>hive-shims-common-secure</project>
+    <project>hive-shims-0.20S</project>
+    <project>hive-shims-0.23</project>
+    <project>hive-metastore</project>
+    <project>hive-serde</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

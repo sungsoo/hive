@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="/Users/sungsoo/github/apache-hive/itests/qtest/target/tmp"/>
+  <delete dir="/Users/sungsoo/github/apache-hive/itests/qtest/target/warehouse"/>
+  <mkdir dir="/Users/sungsoo/github/apache-hive/itests/qtest/target/tmp"/>
+  <mkdir dir="/Users/sungsoo/github/apache-hive/itests/qtest/target/warehouse"/>
+  <mkdir dir="/Users/sungsoo/github/apache-hive/itests/qtest/target/tmp/conf"/>
+  <copy todir="/Users/sungsoo/github/apache-hive/itests/qtest/target/tmp/conf/">
+    <fileset dir="/Users/sungsoo/github/apache-hive/itests/qtest/../../data/conf/"/>
+  </copy>
+</target>
+</project>

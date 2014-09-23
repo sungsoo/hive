@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <property name="compile.classpath" refid="maven.compile.classpath"/>
+  <taskdef name="vectorcodegen" classname="org.apache.hadoop.hive.ant.GenVectorCode" classpath="${compile.classpath}"/>
+  <mkdir dir="/Users/sungsoo/github/apache-hive/ql/target/generated-sources/java/org/apache/hadoop/hive/ql/exec/vector/expressions/gen/"/>
+  <mkdir dir="/Users/sungsoo/github/apache-hive/ql/target/generated-sources/java/org/apache/hadoop/hive/ql/exec/vector/expressions/aggregates/gen/"/>
+  <mkdir dir="/Users/sungsoo/github/apache-hive/ql/target/generated-test-sources/java/org/apache/hadoop/hive/ql/exec/vector/expressions/gen/"/>
+  <vectorcodegen buildDir="/Users/sungsoo/github/apache-hive/ql/target" templateBaseDir="/Users/sungsoo/github/apache-hive/ql/src/gen/vectorization/"/>
+</target>
+</project>
